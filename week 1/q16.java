@@ -16,38 +16,38 @@ Sample Test Cases
 Test Case 1:
 
 Expected Output:
-Enter·the·range:·5
-Fibonacci·Sequence·(Recursive):
-0·1·1·2·3·
-Fibonacci·Sequence·(Non-Recursive):
-0·1·1·2·3·
+EnterÂ·theÂ·range:Â·5
+FibonacciÂ·SequenceÂ·(Recursive):
+0Â·1Â·1Â·2Â·3Â·
+FibonacciÂ·SequenceÂ·(Non-Recursive):
+0Â·1Â·1Â·2Â·3Â·
 
 Test Case 2:
 
 Expected Output:
-Enter·the·range:·10
-Fibonacci·Sequence·(Recursive):
-0·1·1·2·3·5·8·13·21·34·
-Fibonacci·Sequence·(Non-Recursive):
-0·1·1·2·3·5·8·13·21·34·
+EnterÂ·theÂ·range:Â·10
+FibonacciÂ·SequenceÂ·(Recursive):
+0Â·1Â·1Â·2Â·3Â·5Â·8Â·13Â·21Â·34Â·
+FibonacciÂ·SequenceÂ·(Non-Recursive):
+0Â·1Â·1Â·2Â·3Â·5Â·8Â·13Â·21Â·34Â·
 
 Test Case 3:
 
 Expected Output:
-Enter·the·range:·4
-Fibonacci·Sequence·(Recursive):
-0·1·1·2·
-Fibonacci·Sequence·(Non-Recursive):
-0·1·1·2·
+EnterÂ·theÂ·range:Â·4
+FibonacciÂ·SequenceÂ·(Recursive):
+0Â·1Â·1Â·2Â·
+FibonacciÂ·SequenceÂ·(Non-Recursive):
+0Â·1Â·1Â·2Â·
 
 Test Case 4:
 
 Expected Output:
-Enter·the·range:·9
-Fibonacci·Sequence·(Recursive):
-0·1·1·2·3·5·8·13·21·
-Fibonacci·Sequence·(Non-Recursive):
-0·1·1·2·3·5·8·13·21·
+EnterÂ·theÂ·range:Â·9
+FibonacciÂ·SequenceÂ·(Recursive):
+0Â·1Â·1Â·2Â·3Â·5Â·8Â·13Â·21Â·
+FibonacciÂ·SequenceÂ·(Non-Recursive):
+0Â·1Â·1Â·2Â·3Â·5Â·8Â·13Â·21Â·
 
 package q1172;
 import java.util.Scanner; public class Fibonacci {
@@ -68,7 +68,7 @@ f[0]=0;
 f[1]=1;
 for (i=2;i<=n;i++)
 { 
-f[i]-f[i-1]+f[i-2];
+f[i]=f[i-1]+f[i-2];
 } 
 return f[n];
 public static void main(String[] args) {
