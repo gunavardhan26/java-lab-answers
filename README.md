@@ -1,2 +1,2 @@
 # java-lab-answers
-week 2 will be updated soon
+week 3 will be updated soon
